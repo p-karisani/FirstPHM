@@ -16,12 +16,12 @@ Dependencies (needed in the JAVA_PATH):
 - spmf.jar (SPMF data mining API)
 
 
-Dependencies (Accessed through code, see EVAR.java within the src directory):
+Another set of Dependencies (Accessed through code, see EVAR.java within the src directory):
 - FREQuent Tree miner
 - ARK pre-trained model
 
-<br/>
 
+Files and input data:
 - There are also a small set of files needed for parsing tweets and loading word embeddings placed in the data directory.
 - The format of the embedding file should be the regular word2vec format—first line contains vocab size and dimension length.
 - A sample of input data is also placed in the data directory: “tweets.txt” and “tweets.txt-tags”.
