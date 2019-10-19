@@ -20,21 +20,13 @@ Dependencies (Accessed through code, see EVAR.java within the src directory):
 - FREQuent Tree miner
 - ARK pre-trained model
 
+<br/><br/>
 
-There are also a small set of files needed for parsing tweets and loading word embeddings placed in the data directory. <br/><br/>
-
-
-The format of the embedding file should be the regular word2vec format—first line contains vocab size and dimension length. <br/><br/>
-
-
-A sample of input data is also placed in the data directory: “tweets.txt” and “tweets.txt-tags” <br/><br/>
-
-The format of tweets.txt is: tweet id, label, user id, date, likes, retweets, replies, topic, tweet content <br/><br/>
-
-Labels are: 1 as negative and 3 as positive <br/><br/>
-
-tweets.txt-tags contains the parsed tweets. The tweet texts should be parsed by “TweeboParser”. <br/><br/>
-
-The project constants are set in Evar.java. A sample code is placed in MainThread.java <br/><br/>
-
-The PHM dataset is in the dataset directory <br/>
+- There are also a small set of files needed for parsing tweets and loading word embeddings placed in the data directory.
+- The format of the embedding file should be the regular word2vec format—first line contains vocab size and dimension length.
+- A sample of input data is also placed in the data directory: “tweets.txt” and “tweets.txt-tags”.
+- The format of tweets.txt is: tweet id, label, user id, date, likes, retweets, replies, topic, tweet content.
+- Labels are: 1 as negative and 3 as positive.
+- tweets.txt-tags contains the parsed tweets. The tweet texts should be parsed by “TweeboParser”.
+- The project constants are set in Evar.java. A sample code is placed in MainThread.java.
+- The PHM dataset is in the dataset directory.
