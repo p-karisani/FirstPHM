@@ -20,7 +20,7 @@ Dependencies (Accessed through code, see EVAR.java within the src directory):
 - FREQuent Tree miner
 - ARK pre-trained model
 
-<br/><br/>
+<br/>
 
 - There are also a small set of files needed for parsing tweets and loading word embeddings placed in the data directory.
 - The format of the embedding file should be the regular word2vec format—first line contains vocab size and dimension length.
